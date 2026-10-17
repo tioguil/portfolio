@@ -7,18 +7,6 @@ export type Experience = {
   technologies: string[];
 };
 
-export type Project = {
-  name: string;
-  label: string;
-  status: string;
-  description: string;
-  context: string;
-  technologies: string[];
-  image: string;
-  imageAlt: string;
-  url: string;
-};
-
 export const portfolio = {
   person: {
     name: "Guilherme dos Santos",
@@ -90,7 +78,20 @@ export const portfolio = {
       technologies: ["Java", "Spring MVC", "Web"],
     },
   ] satisfies Experience[],
-  projects: [] as Project[],
+  projects: [
+    {
+      name: "Smart Presente",
+      label: "Produto digital",
+      status: "Projeto em produção",
+      description: "Plataforma de recomendações personalizadas de presentes, desenvolvida em parceria, com foco em facilitar a escolha do presente ideal por meio de tecnologia, inteligência artificial e automação.",
+      context: "Uma iniciativa empreendedora e uma experiência prática de desenvolvimento e manutenção de produto digital.",
+      technologies: ["Next.js", "Inteligência Artificial"],
+      technologyStatus: "Confirmar no repositório as tecnologias de backend, dados, automação e infraestrutura antes de adicioná-las.",
+      image: "/smart-presente-home.png",
+      imageAlt: "Página inicial do Smart Presente em produção",
+      url: "https://smartpresente.com.br",
+    },
+  ],
   futureProjects: ["Pesquisa Facilitada", "Projetos pessoais", "Experimentos técnicos", "Aplicações open source"],
   beyondCode: {
     title: "Além do código.",
@@ -109,14 +110,14 @@ export const portfolio = {
       {
         kicker: "Projetos paralelos",
         title: "Sempre construindo",
-        text: "Fora do trabalho, continuo experimentando tecnologias, explorando novas ideias e transformando aprendizados em projetos práticos.",
+        text: "Fora do trabalho, continuo experimentando tecnologias e transformando ideias em produtos reais. O Smart Presente é uma dessas experiências: construir, publicar, manter e aprender com o produto em uso.",
       },
     ],
     timeline: [
       { marker: "Aos 16 anos", title: "Primeiro servidor", text: "Uma experiência com Ragnarok Online transforma curiosidade em algo prático." },
       { marker: "Formação", title: "Ciência da Computação", text: "A curiosidade ganha fundamentos no bacharelado pela Universidade São Judas Tadeu." },
       { marker: "Carreira", title: "Software e finanças", text: "Desenvolvimento full stack, sistemas financeiros e integrações passam a fazer parte do cotidiano." },
-      { marker: "Atualmente", title: "Engenharia e produtos", text: "Atuação como Software Engineer e desenvolvimento contínuo de projetos e experimentos técnicos." },
+      { marker: "Atualmente", title: "Engenharia e produtos", text: "Atuação como Software Engineer e desenvolvimento de projetos autorais, incluindo o Smart Presente." },
     ],
   },
   principles: [

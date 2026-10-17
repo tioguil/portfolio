@@ -30,6 +30,8 @@ O build estático é gerado em `out/`.
 
 O campo `github` foi deixado vazio de propósito, pois nenhum perfil foi fornecido. Adicione uma URL real antes de exibi-lo na interface.
 
+A stack pública do Smart Presente inclui apenas tecnologias confirmadas pelo ambiente publicado. Antes de ampliar a lista, valide backend, dados, automação e infraestrutura no repositório do produto; o lembrete está centralizado em `technologyStatus` dentro de `src/data/portfolio.ts`.
+
 ## Deploy na Vercel
 
 Importe o repositório na Vercel. O framework será detectado automaticamente. Configure `NEXT_PUBLIC_SITE_URL` com o domínio final.
