@@ -59,7 +59,7 @@ export const portfolio = {
       technologies: [".NET", "Java", "React", "SQL", "APIs"],
     },
     {
-      company: "cromAI",
+      company: "CromAI",
       role: "Software Developer",
       period: "ago 2018 — abr 2020",
       summary: "Soluções web e ferramentas internas para inteligência artificial aplicada ao agronegócio.",
