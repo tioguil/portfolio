@@ -1,0 +1,10 @@
+/node_modules
+/.next
+/out
+/.vercel
+*.tsbuildinfo
+.env*
+!.env.example
+/tmp
+/.chrome-headless*
+/.edge-headless*
