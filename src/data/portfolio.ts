@@ -36,12 +36,12 @@ export const portfolio = {
   ],
   experiences: [
     {
-      company: "Pathbit",
-      role: "Software Engineer",
+      company: "Genial Investimentos",
+      role: "Software Engineer | Prestador de Serviços",
       period: "jan 2025 — atual",
-      summary: "Software Engineer na Pathbit, atuando em projetos da Genial Investimentos, com foco em soluções de crédito, integrações financeiras, microsserviços e arquiteturas orientadas a eventos.",
+      summary: "Atuação no desenvolvimento e evolução de soluções de crédito e serviços financeiros na Genial Investimentos, com foco em microsserviços, integrações com sistemas externos e arquiteturas orientadas a eventos. Desenvolvimento de APIs e aplicações backend e frontend, utilizando .NET, Java, React, Oracle, PostgreSQL, RabbitMQ, Kafka e AWS.",
       highlights: [
-        "Atuação alocada na Genial Investimentos, sem vínculo empregatício direto com a instituição.",
+        "Atuação como prestador de serviços, sem vínculo empregatício direto com a instituição.",
         "Desenvolvimento backend e frontend em um contexto de sistemas financeiros.",
       ],
       technologies: [".NET", "Java", "React", "Oracle", "PostgreSQL", "RabbitMQ", "Kafka", "AWS"],
